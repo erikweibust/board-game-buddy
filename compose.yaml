@@ -2,4 +2,4 @@ services:
   qdrant:
     image: 'qdrant/qdrant:latest'
     ports:
-      - '6334'
+      - '6334:6334'
